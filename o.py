@@ -8,24 +8,28 @@ class Plane:
     	self.wingspan     = wingspan
     	self.max_airspeed = max_airspeed
 
+
     def get_manufacturer(self):
     	return self.manufacturer
+
 
     def get_designation(self):
     	return self.designation
 
+
     def get_engine_type(self):
     	return self.engine_type
 
+
     def get_wingspan(self):
     	return self.wingspan
+
 
     def get_max_airspeed(self):
     	return self.max_airspeed
 
 
 def main():
-
 	plane_001 = Plane("Boeing", "777", "Turbofan", "200.00ft", "587 mph ... 945 km/h")
 
 	print plane_001.get_manufacturer()
